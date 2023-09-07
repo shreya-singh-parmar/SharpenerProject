@@ -19,19 +19,27 @@ const header = document.querySelector('#main');
 //heading.textContent ="hello";
 //heading.innerText="Goodbye";
 //console.log(heading.innertext);
-//console.log(heading.innerHTML = '<h3> Hello </h3>')
- header.style.border = 'solid 3px #000'
- const title = document.querySelector('.item');
- title.style.fontWeight = 'bold';
- title.style.color='green';
- const item = document.getElementsByClassName('list-group-item');
- console.log(item);
- console.log(item[1]);
- item[1].style.backgroundColor = 'yellow';
- for(var i=0;i<item.length;i++){
-    item[i].style.fontWeight ='bold';
- }
-  
+//console.log(heading.innerHTML = '<h3> Hello </h3>'
+//.style.border = 'solid 3px #000'
+//.style.border = 'solid 3px #000'
+//title = document.querySelector('.item');
+//style.fontWeight = 'bold';
+//style.color='green'
+//
+//style.color='green';
+//item = document.getElementsByClassName('list-group-item');
+//consolee.log(item);
+//consolee.log(item[1]);
+//item[1].style.backgroundColor = 'yellow';
+//for(var i=0;i<item.length;i++){
+//item[i].style.fontWeight ='bold';
+//}
 
-
+const li = document.getElementsByTagName('li');
+console.log(li);
+console.log(li[2]);
+li[2].style.fontWeight = 'bold';
+for(var i=0;i<li.length;i++){
+    li[i].style.backgroundColor = '#f4f4f4';
+}
 
