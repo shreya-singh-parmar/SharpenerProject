@@ -35,11 +35,18 @@ const header = document.querySelector('#main');
 //item[i].style.fontWeight ='bold';
 //}
 
-const li = document.getElementsByTagName('li');
-console.log(li);
-console.log(li[2]);
-li[2].style.fontWeight = 'bold';
-for(var i=0;i<li.length;i++){
-    li[i].style.backgroundColor = '#f4f4f4';
+// li = document.getElementsByTagName('li');
+//le.log(li);
+//le.log(li[2]);
+//.style.fontWeight = 'bold';
+//ar i=0;i<li.length;i++){
+//i[i].style.backgroundColor = '#f4f4f4';
+
+const item = document.querySelectorAll('.list-group-item');
+//item[1].style.backgroundColor = 'green';
+//item[2].style.visibility = 'hidden';
+for(var i=1; i<item.length ; i+=2){
+    item[i].style.backgroundColor = 'green';
 }
+
 
